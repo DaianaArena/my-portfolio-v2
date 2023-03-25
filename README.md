@@ -13,7 +13,7 @@ This project was created from [my personal Next.js+Typescript+Tailwind boilerpla
 
 ## AI-powered Project
 
-<p align="center"> <a href="https://openai.com/blog/chatgpt" target="_blank" rel="noreferrer" > <img src="https://revistapuntos.uniandes.edu.co/wp-content/uploads/2023/01/logo-chat.png" alt="chatgpt" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://openai.com/blog/chatgpt" target="_blank" rel="noreferrer" > <img src="https://revistapuntos.uniandes.edu.co/wp-content/uploads/2023/01/logo-chat.png" alt="chatgpt" width="40" height="40"/> </a> <a href="https://www.midjourney.com/" target="_blank" rel="noreferrer" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Midjourney_Emblem.png/480px-Midjourney_Emblem.png" alt="midjourney" width="40" height="40"/> </a></p>
 
 This project was generated with the help of natural language processing and machine learning algorithms. By using AI, I was able to improve the quality and speed of the development process. AI algorithms can analyze vast amounts of data, extract meaningful insights, and provide suggestions for improving the content.
 
