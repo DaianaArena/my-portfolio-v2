@@ -13,6 +13,8 @@ This project was created from [my personal Next.js+Typescript+Tailwind boilerpla
 
 ## AI-powered Project
 
+<p align="center"> <a href="https://openai.com/blog/chatgpt" target="_blank" rel="noreferrer" > <img src="https://revistapuntos.uniandes.edu.co/wp-content/uploads/2023/01/logo-chat.png" alt="chatgpt" width="40" height="40"/> </a> </p>
+
 This project was generated with the help of natural language processing and machine learning algorithms. By using AI, I was able to improve the quality and speed of the development process. AI algorithms can analyze vast amounts of data, extract meaningful insights, and provide suggestions for improving the content.
 
 To enhance my practices in developing and eliciting Neumorphism styles for Tailwind, I rely on [ChatGPT](https://openai.com/blog/chatgpt), a cutting-edge language model that leverages deep learning techniques to produce human-like responses to natural language queries. By engaging with ChatGPT, I gain valuable insights and recommendations on how to optimize my development process. This enables me to pinpoint potential issues and simplify my workflow. Moreover, ChatGPT serves as a useful tool for me to add comments to my code, facilitating better organization and documentation of my work.
