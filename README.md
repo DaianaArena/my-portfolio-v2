@@ -1,8 +1,11 @@
-<p align="center"><img src="https://i.imgur.com/nmxJmbR.png" width="400"></p>
+<p align="center"><img src="https://i.imgur.com/kmUPMAx.png" width="400"></p>
 <p align="center"> <a href="https://nextjs.org/" target="_blank" rel="noreferrer" > <img src="https://www.ambient-it.net/wp-content/uploads/2022/02/Logo-formation-nextjs-200x175-1.png" alt="nextjs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-This is my personal Next.js+Typescript+Tailwind boilerplate. Feel free to use it if you like it!
 
-Please visit my [Linkedin](https://www.linkedin.com/in/arenadaiana/) to say thanks 	:grin: remember it helps me a lot ♥
+# Welcome to my personal portfolio repository! 
+
+As my [initial portfolio](https://github.com/DaianaArena/my-portfolio) recently turned one year old, I decided to create a new one with all the technologies of the stack I currently use. Thanks for visiting my work, I hope you like it.
+
+This project was created from [my personal Next.js+Typescript+Tailwind boilerplate](https://github.com/DaianaArena/react-zoho-widget-boilerplate). Feel free to use it if you like it! If you do, please visit my [Linkedin](https://www.linkedin.com/in/arenadaiana/) to say thanks 	:grin: remember it helps me a lot ♥
 
 ## Before Installation - System Requirements
 
