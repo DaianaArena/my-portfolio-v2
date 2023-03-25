@@ -5,7 +5,21 @@
 
 As my [initial portfolio](https://github.com/DaianaArena/my-portfolio) recently turned one year old, I decided to create a new one with all the technologies of the stack I currently use. Thanks for visiting my work, I hope you like it.
 
+This project is a personal portfolio repository created by  me  to showcase my work. The purpose of the project is to demonstrate my proficiency in various technologies such as Next.js, React, TailwindCSS, and TypeScript. The project also includes instructions for setting up and running the project on a local development environment, as well as deploying it on the Vercel platform. Additionally, I provide a boilerplate for creating similar projects using my personal Next.js+Typescript+Tailwind setup.
+
+## My personal Next.js+Typescript+Tailwind boilerplate
+
 This project was created from [my personal Next.js+Typescript+Tailwind boilerplate](https://github.com/DaianaArena/react-zoho-widget-boilerplate). Feel free to use it if you like it! If you do, please visit my [Linkedin](https://www.linkedin.com/in/arenadaiana/) to say thanks 	:grin: remember it helps me a lot ♥
+
+## AI-powered Project
+
+This project was generated with the help of natural language processing and machine learning algorithms. By using AI, I was able to improve the quality and speed of the development process. AI algorithms can analyze vast amounts of data, extract meaningful insights, and provide suggestions for improving the content.
+
+To enhance my practices in developing and eliciting Neumorphism styles for Tailwind, I rely on [ChatGPT](https://openai.com/blog/chatgpt), a cutting-edge language model that leverages deep learning techniques to produce human-like responses to natural language queries. By engaging with ChatGPT, I gain valuable insights and recommendations on how to optimize my development process. This enables me to pinpoint potential issues and simplify my workflow. Moreover, ChatGPT serves as a useful tool for me to add comments to my code, facilitating better organization and documentation of my work.
+
+To create visually stunning pieces for my project, I utilized both Photoshop and [Midjourney](https://www.midjourney.com/), an AI-powered platform that generates images based on certain prompts. With Midjourney, I was able to quickly and easily create unique and captivating visuals that perfectly complemented the overall aesthetic of my project. The platform's AI capabilities also allowed me to experiment with different design elements and receive instant feedback on what works best. Overall, Midjourney was an invaluable tool that helped me bring my creative vision to life.
+
+But wait, there's more. In addition to using AI to develop the project, this same technology was also employed to write the documentation you're reading right now. This approach not only saves time, but it also ensures that the documentation is accurate and consistent. Furthermore, using AI to generate documentation frees up developer time to focus on other important aspects of the project, making the development process faster and more efficient.
 
 ## Before Installation - System Requirements
 
@@ -70,7 +84,7 @@ If you need to learn more about typescript don't forget to [visit their document
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The way I deployed my portfolio was by using [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out  [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
