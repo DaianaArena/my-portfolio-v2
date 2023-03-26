@@ -11,7 +11,20 @@ const Links = [
   {
     label: "About",
     route: "/about"
+  },
+  {
+    label: "Projects",
+    route: "/projects"
+  },
+  {
+    label: "CV",
+    route: "/cv"
+  },
+  {
+    label: "Contact me",
+    route: "/contact"
   }
+
 ]
 
 export const metadata = {
@@ -29,9 +42,9 @@ export default function RootLayout({
       
 
 
-      <body>
-        <nav className="bg-gray-100 rounded-lg shadow-lg">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <body className='bg-gray-100'>
+        <nav className="bg-gray-200 rounded-lg shadow-lg">
+          <div className="max-w-7xl mx-auto px-12 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className=" flex justify-center items-center" >
                   <Image
@@ -47,7 +60,7 @@ export default function RootLayout({
 
                 {Links.map(({ label, route}) => (
 
-                  <li key={route} className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900  ">
+                  <li key={route} className="whitespace-nowrap text-base font-medium text-gray-900 hover:text-orange-400  ">
                     <Link href={route}>{label}</Link>
                   </li>
                 
