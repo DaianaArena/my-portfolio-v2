@@ -122,7 +122,7 @@ export default function RootLayout({
               </button>
             </div>
           </div>
-                    </nav>*
+                    </nav>
 
         {children}
         
