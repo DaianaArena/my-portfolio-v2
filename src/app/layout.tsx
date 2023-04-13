@@ -70,7 +70,7 @@ export default function RootLayout({
               </ul>
 
               <button className='block md:hidden py-3  pt-5 rounded focus:outline-none hover:bg-gray-200 group'>
-                <div className='mt-12 w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
+                <div className=' w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
                 <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
                 <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
 
