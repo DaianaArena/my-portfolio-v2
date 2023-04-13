@@ -6,5 +6,10 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    display: ['group-focus'],
+    opacity: ['group-focus'],
+    inset: ['group-focus']
+  },
   plugins: [],
 }

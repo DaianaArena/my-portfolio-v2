@@ -68,6 +68,26 @@ export default function RootLayout({
 
                 
               </ul>
+
+              <button className='block md:hidden py-3  pt-5 rounded focus:outline-none hover:bg-gray-200 group'>
+                <div className='mt-12 w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
+                <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
+                <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
+
+                <div className='absolute top-0 z-10 -right-full h-screen w-8/12  bg-[#FB3355] border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300'>
+                    <ul className='flex flex-col items-center justify-evenly w-full text-base cursor-pointer pt-16'>
+                    {Links.map(({ label, route}) => (
+
+                      <li key={route} className="whitespace-nowrap mb-8 text-2xl text-white  ">
+                        <Link href={route}>{label}</Link>
+                      </li>
+
+                    ))}
+
+                    </ul>
+                </div>    
+
+              </button>
             </div>
           </div>
         </nav>
