@@ -1,5 +1,7 @@
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
+
+//Images 
 import Image from 'next/image'
 import travelImage from '../../../public/projects/travel.png'
 import pokedexImage from '../../../public/projects/pokedex.png'
@@ -9,6 +11,8 @@ import memojiImage from '../../../public/projects/memoji.png'
 import coffeeImage from '../../../public/projects/coffee.png'
 import experiencesImage from '../../../public/projects/experiences.png'
 
+
+//List of my projects
 const Projects = [
   {
     key: 0,
@@ -75,13 +79,15 @@ const Projects = [
 export default function About () {
  
 
+  // Render the content of the projects page
   return (
 
     <div className="">
 
-      <h1 className="py-10 px-12 text-3xl md:text-5xl lg:text-7xl font-bold mb-4 text-gray-900">My Projects</h1>
+      <h1 className="py-10 px-12 text-3xl md:text-5xl lg:text-7xl font-bold mb-4 text-orange-400">My Projects</h1>
       <div className=" py-10 px-12 grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               
+      {/* Array map for the cards creation */}        
       {Projects.map(({ key, title, description, repo, deploy, img}) => (
         <div className="!z-5 relative flex flex-col rounded-[20px] max-w-[300px]  bg-clip-border shadow-3xl shadow-shadow-500  w-full !p-4 3xl:p-![18px] bg-gray-900 undefined animate-float">
             <div className="h-full w-full">
@@ -108,7 +114,7 @@ export default function About () {
                             target="_blank"
                             rel="noopener noreferrer"
                             className='relative inline-flex text-sm sm:text-base rounded-full font-medium border-2 border-transparent transition-colors outline-transparent focus:outline-transparent disabled:opacity-50 disabled:pointer-events-none  disabled:hover:opacity-40 disabled:cursor-not-allowed disabled:shadow-none
-                            text-white bg-[#4040F2] hover:bg-[#3333D1] focus:border-[#B3B3FD] focus:bg-[#4040F2] px-4 py-1 sm:py-1.5 sm:px-5'
+                            text-white bg-[#FB3355] hover:bg-[#FF7067] focus:border-[#FF7067]  px-4 py-1 sm:py-1.5 sm:px-5'
                           >
                             Deploy
                           </a>
