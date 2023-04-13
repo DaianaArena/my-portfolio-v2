@@ -30,7 +30,7 @@ export default function Home() {
               href="/CV-2023-DAIANA-ARENA.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className='  text-md font-bold text-gray-900 mb-2'
+              className='  text-md font-bold text-gray-900 mb-2 hover:text-orange-400'
               
             >
               DOWNLOAD MY RESUME
