@@ -10,12 +10,22 @@ import shopImage from '../../../public/projects/shop.png'
 import memojiImage from '../../../public/projects/memoji.png'
 import coffeeImage from '../../../public/projects/coffee.png'
 import experiencesImage from '../../../public/projects/experiences.png'
+import nerdcafe from '../../../public/projects/nerdcafe.png'
 
 
 //List of my projects
 const Projects = [
   {
     key: 0,
+    title: "Nerd CAFÉ",
+    description: "This project is a cozy coffee shop and coworking simulation where you can also find games and IT-News.",
+    repo: "https://github.com/DaianaArena/nerdcafe",
+    deploy: "https://nerdcafecowork.vercel.app/",
+    img: nerdcafe
+
+  },
+  {
+    key: 1,
     title: "Travel Journal",
     description: "This project is a responsive travel journal challenge from Scrimba, where I used React.js, SASS, and Bootstrap to create a dynamic and visually appealing travel journal web application.",
     repo: "https://github.com/DaianaArena/travel-journal",
@@ -24,7 +34,7 @@ const Projects = [
 
   },
   {
-    key: 1,
+    key: 2,
     title: "Airbnb experiences clone",
     description: "This project is a clone of the popular platform, AirBnB experiences, built using ReactJS. With this clone, users can easily explore and book unique experiences offered by local hosts in various destinations. The use of ReactJS also ensures fast rendering times, making the user experience seamless and enjoyable.",
     repo: "https://github.com/DaianaArena/airbnb-experiences-clone",
@@ -32,7 +42,7 @@ const Projects = [
     img: experiencesImage
   },
   {
-    key: 2,
+    key: 3,
     title: "Coffee world experiences",
     description: "This JS vainilla project is designed to provide a seamless and intuitive user experience for exploring the world's best coffee destinations. So come on in, grab a cup of joe, and start exploring with me!",
     repo: "https://github.com/DaianaArena/coffee-world-experiences",
@@ -41,7 +51,7 @@ const Projects = [
   },
   
   {
-    key: 3,
+    key: 4,
     title: "To-Do List (C.R.U.D.)",
     description: "This is a Node.js CRUD app that allows you to create, read, update, and delete items of a list. With this app, you can easily add, view, update, and delete data, with a simple and intuitive CLI interface. Get started with managing your data today!",
     repo: "https://github.com/DaianaArena/to-do-list-crud",
@@ -50,7 +60,7 @@ const Projects = [
   },
   
   {
-    key: 4,
+    key: 5,
     title: "Ollivander's shopping cart",
     description: "This project showcases a basic implementation of an online shopping cart for Harry Potter's Olivander's store using vanilla JavaScript. Users can add and remove items from the cart, adjust quantities, and view the total price. The goal of this project is to provide an easy-to-understand example of how to create a functional shopping cart.",
     repo: "https://github.com/DaianaArena/ollivanders-shopping-cart",
@@ -58,7 +68,7 @@ const Projects = [
     img: shopImage
   },
   {
-    key: 5,
+    key: 6,
     title: "Memoji-Test",
     description: "MemoTest with Emojis is a fun and addictive game built entirely with vanilla JavaScript. The game challenges players to test their memory and pattern recognition skills by matching pairs of emojis hidden behind a grid of cards. With colorful and expressive emojis as the main visual element, this game offers a unique and engaging user experience.",
     repo: "https://github.com/DaianaArena/memoji-test",
@@ -66,7 +76,7 @@ const Projects = [
     img: memojiImage
   },
   {
-    key: 6,
+    key: 7,
     title: "Pokedex APP",
     description: "This project is a Pokedex, built using HTML, CSS, and JavaScript, and powered by the PokeAPI REST service. The Pokedex allows users to search for and view information about different Pokemon, including their name, type, stats, and evolution chain.",
     repo: "https://github.com/DaianaArena/pokedex-v2",
