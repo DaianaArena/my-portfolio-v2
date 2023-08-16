@@ -71,7 +71,7 @@ export default function RootLayout({
 
       </head>
 
-      <body className='bg-gray-100'>
+      <body className='bg-gray-100 max-w-7xl mx-auto'>
 
         {/* Tb and Dt navbar*/}
         <nav className="bg-gray-200 rounded-lg shadow-lg">
