@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Link from "next-intl/link";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
+import LangSelect from "../LangSelect/LangSelect";
 
 const Navbar = () => {
   return (
@@ -11,9 +12,23 @@ const Navbar = () => {
                   <span className=" text-xl text-center  dark:text-white">
                     Ultimate Boilerplate
                   </span>
-                </a>
-                <nav className="  w-52  flex flex-wrap items-center text-base justify-center">
-                  <Link
+                </a> 
+                  
+                <div className=" w-52 flex justify-center md:justify-end">
+                  
+                  <ThemeSwitcher />
+                  <LangSelect /> 
+                </div>
+                
+              </div>
+            </header>
+  );
+};
+
+export default Navbar;
+
+/*
+<Link
                     className="mx-5 hover:text-pink-700 dark:text-white"
                     href="/"
                     locale="en"
@@ -28,14 +43,4 @@ const Navbar = () => {
                   >
                     🇪🇸
                   </Link>
-                </nav>
-                <div className=" w-52 flex justify-center md:justify-end">
-                  <ThemeSwitcher />
-                </div>
-                
-              </div>
-            </header>
-  );
-};
-
-export default Navbar;
+*/

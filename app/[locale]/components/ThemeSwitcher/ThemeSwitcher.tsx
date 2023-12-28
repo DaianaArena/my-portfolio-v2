@@ -23,7 +23,7 @@ const ThemeSwitcher = () => {
     }
   
     return (
-      <button  onClick={handleToggleChange}>
+      <button  onClick={handleToggleChange} className='mr-4'>
         {theme == "dark" &&
           <IoIosSunny className="text-white"/>
         }
