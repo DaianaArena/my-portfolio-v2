@@ -4,6 +4,7 @@ import Link from 'next/link'
 //Import images
 import Image from 'next/image'
 import NavLogo from '../../public/logos/logo-chico.png'
+import MobileMenu from './components/MobileMenu'
 
 //List of pages in this project
 const Links = [
@@ -101,25 +102,7 @@ export default function RootLayout({
               </ul>
 
               {/* Mb navbar */}
-              <button className='block md:hidden py-3  pt-5 rounded focus:outline-none hover:bg-gray-200 group'>
-                <div className=' w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
-                <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
-                <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
-
-                <div className='absolute top-0 z-10 right-0 h-screen w-8/12  bg-[#FB3355] border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300'>
-                    <ul className='flex flex-col items-center justify-evenly w-full text-base cursor-pointer pt-16'>
-                    {Links.map(({ label, route}) => (
-
-                      <li key={route} className="whitespace-nowrap mb-8 text-2xl text-white  ">
-                        <Link href={route}>{label}</Link>
-                      </li>
-
-                    ))}
-
-                    </ul>
-                </div>
-
-              </button>
+              <MobileMenu />
             </div>
           </div>
                     </nav>
