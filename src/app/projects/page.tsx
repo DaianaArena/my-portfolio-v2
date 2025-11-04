@@ -102,7 +102,7 @@ export default function About () {
   // Render the content of the projects page
   return (
 
-    <div className="">
+    <div className="md:h-full md:overflow-y-auto">
 
       <h1 className="py-10 px-12 text-3xl md:text-5xl lg:text-7xl font-bold mb-4 text-orange-400">My Projects</h1>
       <div className=" py-10 px-12 grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

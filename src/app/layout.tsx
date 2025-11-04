@@ -4,6 +4,7 @@ import Link from 'next/link'
 //Import images
 import Image from 'next/image'
 import NavLogo from '../../public/logos/logo-chico.png'
+import MobileMenu from './components/MobileMenu'
 
 //List of pages in this project
 const Links = [
@@ -44,7 +45,7 @@ export default function RootLayout({
 
   //Render the main content and the nav bar
   return (
-    <html lang="en">
+    <html lang="en" className="md:h-screen">
       
       {/*Head meta data for social media*/}
       <head>
@@ -71,10 +72,10 @@ export default function RootLayout({
 
       </head>
 
-      <body className='bg-gray-100 max-w-7xl mx-auto'>
+      <body className='bg-gray-100 max-w-7xl mx-auto md:h-screen md:flex md:flex-col md:overflow-hidden'>
 
         {/* Tb and Dt navbar*/}
-        <nav className="bg-gray-200 rounded-lg shadow-lg">
+        <nav className="bg-gray-200 rounded-lg shadow-lg md:flex-shrink-0">
           <div className=" mx-auto px-12 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className=" flex justify-center items-center" >
@@ -101,30 +102,14 @@ export default function RootLayout({
               </ul>
 
               {/* Mb navbar */}
-              <button className='block md:hidden py-3  pt-5 rounded focus:outline-none hover:bg-gray-200 group'>
-                <div className=' w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
-                <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
-                <div className='w-8 h-1 bg-[#FB3355] rounded mb-1'></div>
-
-                <div className='absolute top-0 z-10 right-0 h-screen w-8/12  bg-[#FB3355] border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300'>
-                    <ul className='flex flex-col items-center justify-evenly w-full text-base cursor-pointer pt-16'>
-                    {Links.map(({ label, route}) => (
-
-                      <li key={route} className="whitespace-nowrap mb-8 text-2xl text-white  ">
-                        <Link href={route}>{label}</Link>
-                      </li>
-
-                    ))}
-
-                    </ul>
-                </div>    
-
-              </button>
+              <MobileMenu />
             </div>
           </div>
                     </nav>
 
-        {children}
+        <div className="md:flex-1 md:overflow-hidden">
+          {children}
+        </div>
         
       </body>
     </html>
