@@ -44,7 +44,7 @@ export default function RootLayout({
 
   //Render the main content and the nav bar
   return (
-    <html lang="en">
+    <html lang="en" className="md:h-screen">
       
       {/*Head meta data for social media*/}
       <head>
@@ -71,10 +71,10 @@ export default function RootLayout({
 
       </head>
 
-      <body className='bg-gray-100 max-w-7xl mx-auto'>
+      <body className='bg-gray-100 max-w-7xl mx-auto md:h-screen md:flex md:flex-col md:overflow-hidden'>
 
         {/* Tb and Dt navbar*/}
-        <nav className="bg-gray-200 rounded-lg shadow-lg">
+        <nav className="bg-gray-200 rounded-lg shadow-lg md:flex-shrink-0">
           <div className=" mx-auto px-12 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className=" flex justify-center items-center" >
@@ -124,7 +124,9 @@ export default function RootLayout({
           </div>
                     </nav>
 
-        {children}
+        <div className="md:flex-1 md:overflow-hidden">
+          {children}
+        </div>
         
       </body>
     </html>

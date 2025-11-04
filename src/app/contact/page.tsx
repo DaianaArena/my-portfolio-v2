@@ -10,7 +10,7 @@ export default function About () {
  
 // Render the content of the contact page
   return (
-    <div className="md:h-screen  animate-gradient-x flex flex-col justify-center items-center">
+    <div className="md:h-full animate-gradient-x flex flex-col justify-center items-center">
       
       {/* Left column with main text */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8">
