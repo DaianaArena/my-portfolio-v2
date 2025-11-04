@@ -117,7 +117,7 @@ export default function RootLayout({
                     ))}
 
                     </ul>
-                </div>    
+                </div>
 
               </button>
             </div>
