@@ -20,7 +20,11 @@ export default function About () {
           Get to Know Me Better
           </h1>
           <p className="text-sm text-center lg:text-left md:text-sm lg:text-lg mb-8 text-gray-900">
-          I am a passionate and committed Front-End Developer with extensive experience in agile methodologies and a proactive approach that allows me to work effectively in teams and find creative solutions to the challenges that arise in project development. Currently, I work as a React Developer at Cloud Solutions LATAM while continuing my studies in the Bachelor of Computer Science (S21). I love planning and organization, but I also enjoy adding a fun and accessible touch to my work. I am always looking for new opportunities and challenges, which has led me to constantly commit to my career and be in constant learning and improvement. If you are looking for a proactive, analytical, and creative person to work on your project, do not hesitate to contact me to learn more about my experience and skills. I am ready to help you take your ideas to the next level!
+            I’m a Front-End Developer with over 5 years of experience building dynamic and user-friendly web applications. Passionate about turning ideas into interactive digital experiences with React JS and modern web technologies.
+            <br />
+            I have a strong product improvement mindset and experience working with multidisciplinary teams, as well as directly with clients and users to create solutions that truly make an impact. My background includes testing, troubleshooting, and microfrontend development, allowing me to deliver scalable and maintainable products.
+            <br />
+            I’m proactive, analytical, and always eager to learn — combining structure and creativity to craft clean, accessible, and engaging interfaces. Let’s connect and build something amazing together! 🚀
           </p>
           
 
